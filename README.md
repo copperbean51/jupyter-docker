@@ -1,7 +1,10 @@
 # jupyter-docker
 
-## How to use
+## How to build docker image
 
+`docker build -t  jupyter:latest .`
+
+## How to use
 Run the command 
 `cd docker`
 `./run_docker.sh`
