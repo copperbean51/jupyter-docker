@@ -1,8 +1,7 @@
 # jupyter-docker
 
 ## How to build docker image
-
-`docker build -t  jupyter:latest .`
+`docker build -t jupyter:latest .`
 
 ## How to use
 Run the command 
@@ -11,3 +10,7 @@ Run the command
 
 And click the url as follows.
 http://localhost:8888/lab/tree/home
+
+
+## Tensorflow jupyter GPU 
+`docker pull tensorflow/tensorflow:latest-gpu-jupyter`
